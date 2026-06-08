@@ -1,0 +1,52 @@
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+}
+
+nav{
+    background:#003366;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav input{
+    padding:8px;
+}
+
+nav button{
+    padding:8px 12px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    margin:15px 0;
+    border-radius:8px;
+}
